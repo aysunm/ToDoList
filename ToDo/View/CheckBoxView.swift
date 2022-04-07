@@ -24,13 +24,10 @@ struct CheckBoxView: View {
             }
         }
         .frame(width: 30, height: 30)
-    }
-    
+    }    
 }
 
 struct CheckBoxView_Previews: PreviewProvider {
-    static let modelData = ModelData()
-    
     static var previews: some View {
         CheckBoxView(isChecked: .constant(true))
     }

@@ -21,17 +21,17 @@ struct ToDoRow: View {
                 Text(toDoItem.name)
                     .bold()
                     .foregroundColor(.orange)
-                Text(toDoItem.description ?? "Asd")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
+//                Text(toDoItem.description ?? "Asd")
+//                    .font(.caption)
+//                    .foregroundColor(.secondary)
             }
             
             Spacer()
             
             if #available(iOS 15.0, *) {
-                let item = $modelData.toDoItems.first(where: { $0.id == toDoItem.id })
-                CheckBoxView(isChecked: item!.isChecked)
-                    .environmentObject(modelData)
+                if let item = $modelData.toDoItems.first(where: { $0.id == toDoItem.id }) {
+                    CheckBoxView(isChecked: item.isChecked)
+                }
             }
         }
         .padding()

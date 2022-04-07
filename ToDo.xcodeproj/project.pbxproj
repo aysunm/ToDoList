@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84381A3827FF87EF0052FBBA /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84381A3727FF87EF0052FBBA /* TextField.swift */; };
 		8463AEBD27EA4AD800AB316F /* ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463AEBC27EA4AD800AB316F /* ToDoApp.swift */; };
 		8463AEBF27EA4AD800AB316F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463AEBE27EA4AD800AB316F /* ContentView.swift */; };
 		8463AEC127EA4ADD00AB316F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8463AEC027EA4ADD00AB316F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84381A3727FF87EF0052FBBA /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		8463AEB927EA4AD800AB316F /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8463AEBC27EA4AD800AB316F /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		8463AEBE27EA4AD800AB316F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				8463AEBE27EA4AD800AB316F /* ContentView.swift */,
 				8463AEC027EA4ADD00AB316F /* Assets.xcassets */,
 				8463AEC227EA4ADD00AB316F /* Preview Content */,
+				84381A3727FF87EF0052FBBA /* TextField.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				8463AEBF27EA4AD800AB316F /* ContentView.swift in Sources */,
 				8463AED327EA5BED00AB316F /* CheckBoxView.swift in Sources */,
 				8463AEBD27EA4AD800AB316F /* ToDoApp.swift in Sources */,
+				84381A3827FF87EF0052FBBA /* TextField.swift in Sources */,
 				8463AED527EA62EA00AB316F /* ToDoList.swift in Sources */,
 				8463AED127EA4D4B00AB316F /* ModelData.swift in Sources */,
 				8463AECF27EA4CDC00AB316F /* ToDoRow.swift in Sources */,
@@ -305,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = W2UBK6CWSS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -334,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = W2UBK6CWSS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

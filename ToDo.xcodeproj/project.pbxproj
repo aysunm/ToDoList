@@ -11,6 +11,11 @@
 		8463AEBF27EA4AD800AB316F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463AEBE27EA4AD800AB316F /* ContentView.swift */; };
 		8463AEC127EA4ADD00AB316F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8463AEC027EA4ADD00AB316F /* Assets.xcassets */; };
 		8463AEC427EA4ADD00AB316F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8463AEC327EA4ADD00AB316F /* Preview Assets.xcassets */; };
+		8463AECC27EA4BAC00AB316F /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463AECB27EA4BAC00AB316F /* ToDoItem.swift */; };
+		8463AECF27EA4CDC00AB316F /* ToDoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463AECE27EA4CDC00AB316F /* ToDoRow.swift */; };
+		8463AED127EA4D4B00AB316F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463AED027EA4D4B00AB316F /* ModelData.swift */; };
+		8463AED327EA5BED00AB316F /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463AED227EA5BED00AB316F /* CheckBoxView.swift */; };
+		8463AED527EA62EA00AB316F /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463AED427EA62EA00AB316F /* ToDoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		8463AEBE27EA4AD800AB316F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8463AEC027EA4ADD00AB316F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8463AEC327EA4ADD00AB316F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8463AECB27EA4BAC00AB316F /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		8463AECE27EA4CDC00AB316F /* ToDoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRow.swift; sourceTree = "<group>"; };
+		8463AED027EA4D4B00AB316F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		8463AED227EA5BED00AB316F /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		8463AED427EA62EA00AB316F /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		8463AEBB27EA4AD800AB316F /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				8463AECD27EA4CCD00AB316F /* View */,
+				8463AECA27EA4B9300AB316F /* Model */,
 				8463AEBC27EA4AD800AB316F /* ToDoApp.swift */,
 				8463AEBE27EA4AD800AB316F /* ContentView.swift */,
 				8463AEC027EA4ADD00AB316F /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				8463AEC327EA4ADD00AB316F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8463AECA27EA4B9300AB316F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8463AECB27EA4BAC00AB316F /* ToDoItem.swift */,
+				8463AED027EA4D4B00AB316F /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8463AECD27EA4CCD00AB316F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8463AECE27EA4CDC00AB316F /* ToDoRow.swift */,
+				8463AED227EA5BED00AB316F /* CheckBoxView.swift */,
+				8463AED427EA62EA00AB316F /* ToDoList.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8463AEBF27EA4AD800AB316F /* ContentView.swift in Sources */,
+				8463AED327EA5BED00AB316F /* CheckBoxView.swift in Sources */,
 				8463AEBD27EA4AD800AB316F /* ToDoApp.swift in Sources */,
+				8463AED527EA62EA00AB316F /* ToDoList.swift in Sources */,
+				8463AED127EA4D4B00AB316F /* ModelData.swift in Sources */,
+				8463AECF27EA4CDC00AB316F /* ToDoRow.swift in Sources */,
+				8463AECC27EA4BAC00AB316F /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
